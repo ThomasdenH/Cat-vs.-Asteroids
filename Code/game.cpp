@@ -36,7 +36,7 @@ void Game::update(double dt)
 
     totalTime += dt;
 
-    score = (int) (totalTime / 10.0);
+    score = (int) totalTime;
 
     // Character jumping & gravity
     if (jumping) {
